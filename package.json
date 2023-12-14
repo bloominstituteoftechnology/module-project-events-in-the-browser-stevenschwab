@@ -1,0 +1,17 @@
+{
+  "name": "w_s5m2_project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "fkill :3003 -s && node ./backend/server.js",
+    "fixit": "rm -rf node_modules package-lock.json && npm cache clean --force && npm i"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^8.41.0",
+    "fkill-cli": "^7.1.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
